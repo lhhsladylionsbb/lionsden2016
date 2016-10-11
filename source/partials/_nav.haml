@@ -1,0 +1,40 @@
+%nav#mainNav.navbar.navbar-default.navbar-fixed-top
+	%div.container-fluid
+		/ Brand and toggle get grouped for better mobile display
+		%div.navbar-header
+			%button{:type => "button", :class => "navbar-toggle collapsed", 'data-toggle' =>"collapse", 'data-target' => "#bs-example-navbar-collapse-1"}
+				%span.sr-only Toggle navigation
+				Menu 
+				%i.fa.fa-bars
+
+			%a{:class => "navbar-brand page-scroll", :href => "#page-top"} 
+				Home
+
+		/ Collect the nav links, forms, and other content for toggling
+		%div.collapse.navbar-collapse#bs-example-navbar-collapse-1
+			%ul.nav.navbar-nav.navbar-right
+				%li
+					%a{:class => "page-scroll", :href => "#teams"}
+						Teams
+				%li
+					%a{:class => "page-scroll", :href => "#schedule"}
+						Schedule
+				%li
+					%a{:class => "page-scroll", :href => "#venues"}
+						Venues
+				%li
+					%a{:class => "page-scroll", :href => "#hotel"}
+						Hotel
+				%li
+					%a{:class => "page-scroll", :href => "#sponsors"}
+						Sponsors
+				%li
+					%a{:class => "page-scroll", :href => "#organizers"}
+						Organizers
+				%li
+					%a{:class => "page-scroll", :href => "#about"}
+						About
+
+		/ .navbar-collapse 
+	/ .container-fluid 
+
