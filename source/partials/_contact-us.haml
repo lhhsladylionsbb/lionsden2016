@@ -1,0 +1,36 @@
+%section#contact-us
+  %div.container
+    %div.row
+      %div.col-lg-8.col-lg-offset-2.text-center
+        %h2.section-heading Contact Us
+        %hr.primary
+        %p
+          Do you have any questions about the tournament? Get in contact with the tournament organizers and we will respond to your inquiry.
+      %div.col-lg-4.col-lg-offset-2.text-center
+        %img{:src => "images/organizers/TrixiePaul-circle-small.png", :class => "images-responsive", :alt => ""}
+        %p
+          Trixie Paul
+      %div.col-lg-4.text-center
+        %img{:src => "images/organizers/JanetWilson-circle-small.png", :class => "images-responsive", :alt => ""}
+        %p
+          Janet Wilson
+
+    %div.row
+      %div.col-lg-8.col-lg-offset-2
+        %form.form-horizontal{:name => "signup", :action => "thank-you.html"}
+          %div.form-group
+            %label.col-sm-2.control-label{:for => "contactName"} Name
+            %div.col-sm-8
+              %input.form-control#contactName{:type => "text", :name => "name", :placeholder => "Name"}
+          %div.form-group
+            %label.col-sm-2.control-label{:for => "contactEmail"} Email
+            %div.col-sm-8
+              %input.form-control#contactEmail{:type => "email", :name => "email", :placeholder => "Email"}
+          %div.form-group
+            %label.col-sm-2.control-label{:for => "contactInquiry"} Inquiry
+            %div.col-sm-8
+              %textarea.form-control#contactInquiry{:name => "inquiry", :rows => 5, :maxlength => 2000}
+          %div.form-group
+            %div.col-md-offset-2.col-sm-8
+              %button.btn.btn-primary.btn-xl{:type => "submit"}
+                Submit

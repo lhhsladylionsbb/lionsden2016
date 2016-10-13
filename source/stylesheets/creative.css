@@ -43,6 +43,14 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+.td-large {
+  font-size: 18px;
+  font-weight: bold;
+}
+.td-medium {
+  font-size: 14px;
+  font-weight: bold;
+}
 .bg-primary {
   background-color: #12115f;
 }
@@ -51,7 +59,7 @@ p {
   color: white;
 }
 .bg-blue {
-  background-color: #11125F;
+  background-color: #68B3ED;
   color: white;
 }
 .bg-gray {
@@ -426,14 +434,14 @@ body {
 .numberCircle {
   border-radius: 50%;
 
-  width: 36px;
-  height: 36px;
-  padding: 8px;
+  width: 26px;
+  height: 26px;
+  padding: 1px;
 
   background: #2e2e2e;
   border: 2px solid #666;
   color: #fff;
   text-align: center;
 
-  font: 32px;
+  font: 16px;
 }
