@@ -65,6 +65,13 @@ p {
 .bg-gray {
   background-color: #8e8e8e;
 }
+.bgo-blue {
+  background-color: rgba(104, 179, 237, 0.6);
+  color: white;
+}
+.bgo-gray {
+  background-color: rgba(142, 142, 142, 0.6);
+}
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
