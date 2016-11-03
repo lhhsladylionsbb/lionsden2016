@@ -1,0 +1,30 @@
+teams:
+  - division: Mens
+      - pool: A
+        teams:
+          - 1
+          - 2
+          - 3
+          - 4
+
+      - pool: B
+        teams:
+          - 1
+          - 2
+          - 3
+          - 4
+
+  - division: Womens
+      - pool: A
+        teams:
+          - 1
+          - 2
+          - 3
+          - 4
+
+      - pool: B
+        teams:
+          - 1
+          - 2
+          - 3
+          - 4
